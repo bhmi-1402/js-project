@@ -4,11 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:  'Dosis', sans-serif;
+/* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
-body{
-    /* background-color: plum; */
-}
+
 html{
     font-size: 62.5%;
 }
@@ -31,5 +29,47 @@ html{
     font-size: 3.5rem;
     font-weight: 400;
     margin: 1rem 0 4rem 0;
+}
+.inner-div li{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+input{
+    cursor: pointer;
+}
+#submit,.btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-size: 400;
+    display: block;
+    margin: auto;
+    margin-top: 4rem;
+    border: none;
+    text-transform: uppercase;
+    color:#fff;
+    background-color: #74b9ff;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #0984e3;
+}
+#showScore{
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 1rem 1rem 1rem 0.7rem rgba(158, 67, 67, 0.4);
+}
+ .scoreArea{
+    display: none;
+ }  
+#showScore h3{
+    font-size: 3rem;
+    text-align: center;
+}
+#showScore .btn{
+    background-color: #00b894;
+    /* color:#2d; */
 }
 
